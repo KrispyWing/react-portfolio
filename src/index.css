@@ -207,6 +207,11 @@ ul.skills li {
   list-style-type: circle;
 }
 
+.headshot {
+  height: 15%;
+  width: 15%;
+}
+
 footer {
   font-size: 48px;
   justify-content: center;

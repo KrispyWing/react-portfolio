@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
   const [pages] = useState([
@@ -22,7 +23,9 @@ function App() {
         currentPage={currentPage}
         ></Nav>
       </Header>
-      <main></main>
+      <main>
+        <About></About>
+      </main>
       <Footer></Footer>
     </div>
   );
