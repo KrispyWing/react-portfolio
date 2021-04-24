@@ -3,22 +3,20 @@ main {
   max-width: 90%;
   padding: 50px 30px;
 }
+* {
+  box-sizing: border-box;
+}
+
+/* brand color palette */
 :root {
-  --primary: #8c54ff;
-  --secondary: #31343D;
-  --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #799FBA;
-  --darker: #1F3B60;
-  --alpha: rgba(255,255,255,.7);
-  --error: rgb(228, 46, 1);
+  --primary: rgb(242, 5, 5);
+  --secondary: rgb(242, 34, 51);
+  --tertiary: rgba(89, 89, 89, 1);
+  --dark: rgba(13, 13, 13, 1);
+  --light: rgba(217, 217, 217, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 html,
@@ -33,9 +31,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
+  background: var(--dark);
   color: var(--light);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1,
@@ -44,15 +42,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Aladin', cursive;
+  
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 5rem;
-  margin: 50px 20px;
+  font-size: 3.5rem;
+  margin: 50px 15px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -179,16 +177,16 @@ header img {
   position: absolute;
   top: 0;
   left: 0;
-  height: 400px;
+  height: 125%;
   width: 100%;
   /*filter: sepia(1) opacity(60%);*/
 }
 
 nav {
-  position: relative;
-  font-family: 'Aladin', cursive;
-  font-size: 2.5rem;
-  margin: 30px 20px;
+  position: relative;  
+  font-size: 1.5rem;
+  margin: 30px 10px;
+  align-items: center;
 }
 
 nav a:hover {
@@ -198,7 +196,7 @@ nav a:hover {
 nav li {
   cursor: pointer;
   text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
-  margin: 0 50px;
+  margin: 0 15px;
 }
 
 ul.skills {
@@ -223,6 +221,7 @@ footer a {
 
 footer a:hover {
   opacity: 1;
+  color: var(--secondary);
 }
 
 textarea {
@@ -360,3 +359,4 @@ textarea {
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
+
