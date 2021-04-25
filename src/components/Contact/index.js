@@ -56,6 +56,8 @@ function Contact() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+
+      <p>Email:<a href="mailto:kpennimpede@gmail.com">kpennimpede@gmail.com</a></p>
     </section>
   )
 }
