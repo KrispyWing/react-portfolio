@@ -10,11 +10,11 @@ function Footer() {
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/kristopher-pennimpede-00b851210"
     },
     {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
+      name: "fab fa-instagram",
+      link: "https://instagram.com/kpennimpede"
     }
   ]
 
