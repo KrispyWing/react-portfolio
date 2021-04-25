@@ -13,7 +13,7 @@ function Contact() {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);
       if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage('Please enter a valid email address');
       } else { 
         setErrorMessage('');
       }      
@@ -35,8 +35,7 @@ function Contact() {
   }
   
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section>      
       <form id="contact-form" onSubmit={handleSubmit}>        
         <div>
           <label htmlFor="name">Name:</label>

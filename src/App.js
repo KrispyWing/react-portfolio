@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import About from './components/About';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Projects from './components/Projects';
+//import About from './components/About';
+//import Contact from './components/Contact';
+//import Resume from './components/Resume';
+//import Projects from './components/Projects';
+import Links from './components/Link'
 
 function App() {
   const [pages] = useState([
@@ -27,10 +28,7 @@ function App() {
         ></Nav>
       </Header>
       <main>
-        <About></About>
-        <Contact></Contact>
-        <Resume></Resume>
-        <Projects></Projects>
+        <Links currentPage={currentPage}></Links>
       </main>
       <Footer></Footer>
     </div>

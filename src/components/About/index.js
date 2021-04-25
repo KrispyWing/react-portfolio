@@ -13,7 +13,7 @@ function About() {
       </p>
       <p>
         Originally I am from Fort Erie, Ontario but have lived in Toronto since 2005. For the last 16 years I have worked for Livingston Intl which is one the largest custom brokers in North America. 
-        I have always had a passion for technology and computers from a young age and decided that now was as good a time as any to follow that passion into a career that I will truly enjoy and have look forward to doing every day.
+        I have always had a passion for technology and computers from a young age and decided that now was as good a time as any to follow that passion into a career that I will truly enjoy.
       </p>
     </div>
   </section>
