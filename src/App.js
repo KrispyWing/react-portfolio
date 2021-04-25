@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
 
 function App() {
   const [pages] = useState([
@@ -29,6 +30,7 @@ function App() {
         <About></About>
         <Contact></Contact>
         <Resume></Resume>
+        <Projects></Projects>
       </main>
       <Footer></Footer>
     </div>
