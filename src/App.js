@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   const [pages] = useState([
@@ -25,6 +26,7 @@ function App() {
       </Header>
       <main>
         <About></About>
+        <Contact></Contact>
       </main>
       <Footer></Footer>
     </div>
