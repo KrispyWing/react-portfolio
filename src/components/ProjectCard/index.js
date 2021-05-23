@@ -14,8 +14,8 @@ function ProjectCard({ project }) {
       />
       <div className='project-text'>
         <h3>
-          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
-          <a href={repo}>
+          <a href={link} target='_blank' rel='noreferrer'>{removeHyphensAndCapitalize(name)}</a>{' '}
+          <a href={repo} target='_blank' rel='noreferrer'>
             <i className='fab fa-github'></i>
           </a>
         </h3>
