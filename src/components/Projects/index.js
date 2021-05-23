@@ -5,6 +5,12 @@ function Projects() {
 
   const [projects] = useState([
     {
+      name: 'mind-decks',
+      description: 'Flash Card based learning, Group Project MERN SPA Website/App',
+      link: 'https://group5-project3-uot-duolingo.herokuapp.com/',
+      repo: 'https://github.com/Uot-Project3-Group05/uot-project3-group5'
+    },
+    {
       name: 'dangles-fantasy-sports',
       description: 'Fantasy Hockey Full Stack Application using MySQL Group Project',
       link: 'https://intense-headland-44008.herokuapp.com',
